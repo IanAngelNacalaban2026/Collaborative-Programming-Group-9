@@ -1,0 +1,37 @@
+Sa_1 = float(input("SA1:"))
+Sa_2 = float(input("SA2:"))
+Fa_1 = float(input("FA1:"))
+Fa_2 = float(input("FA2:"))
+Q1 = float(input("Tentative Grade of Q1:"))
+Q2 = float(input("Tentative Grade of Q2:"))
+Q3 = float(input("Tentative Grade of Q3:"))
+Q4 = float(input("Tentative Grade of Q4:"))
+average = (Sa_1 + Sa_2 + Fa_1 + Fa_2 + Q1 + Q2 + Q3 + Q4) / 8
+print("Average:", average)
+if average >= 96 and average <= 100:
+    print(float(equivalent : 1.0))   
+    print("EXCELLENT")
+elif average >= 90 and average <= 95:
+    print(float(equivalent : 1.25))     
+    print("VERY GOOD")           
+elif average >= 84 and average <= 89:
+    print(float(equivalent : 1.5))
+    print("VERY GOOD")
+elif average >= 78 and average <= 83:
+    print(float(equivalent : 1.75))
+    print("GOOD")
+elif average >= 72 and average <= 77:
+    print(float(equivalent : 2.0))
+    print("GOOD")
+elif average >= 66 and average <= 71:
+    print(float(equivalent : 2.25))
+    print("GOOD")
+elif average >= 60 and average <= 65:
+    print(float(equivalent : 2.5)) 
+    print("GOOD")
+elif average >= 55 and average <= 59:
+    print(float(equivalent : 2.75))
+elif average >= 50 and average <= 54:
+    print(float(equivalent : 3.0))
+elif average >= 40 and average <= 49:   
+    print(float(equivalent : 5.0))
