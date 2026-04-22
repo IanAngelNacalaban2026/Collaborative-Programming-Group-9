@@ -1,0 +1,22 @@
+def get_pshs_details(percent):
+    if percent >= 96: return 1.00, "EXCELLENT"  
+    elif percent >= 90: return 1.25, "VERY GOOD"
+    elif percent >= 84: return 1.50, "VERY GOOD"
+    elif percent >= 78: return 1.75, "GOOD"
+    elif percent >= 72: return 2.00, "GOOD"
+    elif percent >= 66: return 2.25, "SATISFACTORY"
+    elif percent >= 60: return 2.50, "SATISFACTORY"
+    elif percent >= 55: return 2.75, "FAIR"
+    elif percent >= 50: return 3.00, "FAIR"
+    elif percent >= 40: return 4.00, "FAILED ON CONDITION"
+    else: return 5.00, "FAILED"
+SA 1 = float(input("Enter the percentage score for SA 1: 90% "))
+SA 2 = float(input("Enter the percentage score for SA 2: 85% "))    
+SA 3 = float(input("Enter the percentage score for SA 3: 80% "))
+average = (SA 1 + SA 2 + SA 3) / 3
+FA 1 = float(input("Enter the percentage score for FA 1: 92.5% "))
+FA 2 = float(input("Enter the percentage score for FA 2: 87.4% "))
+FA 3 = float(input("Enter the percentage score for FA 3: 78.9% "))
+average += (FA 1 + FA 2 + FA 3) / 3
+tentative_grade = ((SA 1 + SA 2 + SA 3) / 3) * 0.70 + ((FA 1 + FA 2 + FA 3) / 3) * 0.30
+
