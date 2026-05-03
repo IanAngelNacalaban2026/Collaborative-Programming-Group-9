@@ -49,11 +49,19 @@ The script maps your final score to the PSHS system:
 - **Below 40%**: 5.00 (FAILED)
 
 How to Calculate Tentative Grade
+
 1. Get the scores and average of the Formative Assessments (FA) and Summative Assessments (SA)
+
  Average = (FA 1 + ... + FA #)/# of FA
+ 
  Average = (SA 2 + ... + SA #)/# of SA
+
 70% = SA
+
 30% = FA
+
  Tentative Grade = 0.70((SA 2 + ... + SA #)/# of SA)) + 0.30((FA 1 + ... + FA #)/# of FA))
+
 Grade Formula:
+ 
  (Previous Quarter + 2(Current Quarter))/3
