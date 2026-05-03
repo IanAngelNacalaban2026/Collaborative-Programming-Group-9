@@ -1,7 +1,11 @@
 # Collaborative-Programming-Group-9
+
 Members
+
 IanAngelNacalaban2026
+
 CelistineC
+
 ParanKurtGadaga# PSHS Grade Calculator
 
 A simple Python script to calculate grades for Philippine Science High School (PSHS) students.
